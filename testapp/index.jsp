@@ -5,6 +5,6 @@
    <body>
       <H1>Test App</H1>
       <% java.util.Date date = new java.util.Date(); %>
-      <p>Greetings, this is the first version of our test app. The time is currently: <% out.printLn( String.valueOf(date)); %></p>
+      <p>Greetings, this is the first version of our test app. The time is currently: <% out.println( String.valueOf(date)); %></p>
     </body>
 </html>
